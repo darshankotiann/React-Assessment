@@ -1,5 +1,7 @@
-@import 'variables';
-@import 'utilities';
+@use '../../../src/assets/css/utilities';
+@use '../../../src/assets/css/variables' as *;
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
