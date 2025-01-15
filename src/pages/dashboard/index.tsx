@@ -92,10 +92,6 @@ export default function Dashboard() {
                     <BadgeIndianRupee size={20} />
                     Cashflow
                 </button>
-                <button className="btn btn-dark-blue-light d-flex flex-column align-items-center gap-1 rounded-3 fs-8 flex-grow-1 py-1">
-                    <Users size={20} />
-                    Advisory
-                </button>
             </div>
         </div>
     )
