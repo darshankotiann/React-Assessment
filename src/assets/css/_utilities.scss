@@ -1,0 +1,70 @@
+@import 'variables';
+
+// text color's
+.txt-dark-blue{
+    color: $dark-blue !important;
+}
+.txt-gray-68{
+    color: $gray-68 !important;
+}
+.txt-gray-36{
+    color: $gray-36 !important;
+}
+.txt-success{
+    color: $success !important;
+}
+.txt-light-green{
+    color: $light-green !important;
+}
+.txt-light-black{
+    color: $light-black !important;
+}
+.txt-failure{
+    color: $failure !important;
+}
+.txt-yellow{
+    color: $yellow !important;
+}
+.txt-dark-green{
+    color: $dark-green !important;
+}
+.txt-dark-yellow{
+    color: $dark-yellow !important;
+}
+
+// bg colors
+.bg-purple{
+    background-color: $purple !important;
+}
+.bg-dark-blue{
+    background-color: $dark-blue !important
+}
+.bg-gray-5{
+    background-color: $gray-5 !important;
+}
+// border color's
+.bdr-gray-36{
+    border-color: $gray-36 !important;
+}
+.bdr-dark-blue{
+    border-color: $dark-blue !important;
+}
+.bdr-gray-10{
+    border-color: $gray-10 !important;
+}
+.bdr-gray-82{
+    border-color: $gray-82 !important;
+}
+// font sizes
+.fs-6-sm{
+    font-size: 14px !important;
+}
+.fs-7{
+    font-size: 12px;
+}
+.fs-8{
+    font-size: 10px;
+}
+.fs-5-sm{
+    font-size: 18px !important;
+}

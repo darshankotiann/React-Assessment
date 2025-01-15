@@ -1,0 +1,57 @@
+@import 'variables';
+@import 'utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// Apply the font globally
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}  
+
+
+.form-control {
+    padding: 0.516rem 0.75rem;
+    &:focus {
+        box-shadow: none;
+        z-index: auto;
+    }
+    &::placeholder {
+        color: $gray-36;
+        font-size: 1rem;
+    }
+}
+.phone-number-input{
+    width: 10%;
+    height: 30px;
+    padding: 0;
+}
+
+.btn-dark-blue{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #024695;
+    --bs-btn-border-color: #024695;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #024695;
+    --bs-btn-hover-border-color: #024695;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #024695;
+    --bs-btn-active-border-color: #024695;
+}
+.btn-dark-blue-light{
+    --bs-btn-color: #024695;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #024695;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #024695;
+    --bs-btn-active-border-color: #024695;
+}
+
+.transaction-container{
+    &:last-child{
+        border-bottom: 0 !important;
+    }
+}
