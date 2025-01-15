@@ -1,4 +1,4 @@
-import { ArrowUpDown, BadgeIndianRupee, BookOpenText, Bot, ChartNoAxesCombined, ChevronDown, ChevronRight, CirclePlus, Dot, Eye, FilePenLine, HandCoins, House, IndianRupee, Info, Landmark, ShieldPlus, Users } from "lucide-react";
+import { ArrowUpDown, BadgeIndianRupee, BookOpenText, Bot, ChartNoAxesCombined, ChevronRight, CirclePlus, Eye, FilePenLine, HandCoins, House, Info, Landmark, ShieldPlus } from "lucide-react";
 import TopBar from "../../layouts/TopBar";
 import AssetCard from "../../components/AssetCard";
 import TransactionCard from "../../components/TransactionCard";

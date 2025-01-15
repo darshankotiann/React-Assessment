@@ -1,9 +1,7 @@
-import React from 'react';
 import './App.css';
 import './assets/css/main.scss';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './pages/auth/login';
-import Layout from './layouts/Layout';
 import Dashboard from './pages/dashboard';
 import AssetDetailPage from './pages/assest';
 import TransactionPage from './pages/transaction';
@@ -16,7 +14,7 @@ function App() {
       <Routes>
         <Route path="login" element={<Login />} />
         {/* <Route path='/' element={<Layout />}> */}
-        <Route path='/' element={<Dashboard/>} />
+        <Route path='/Pinde' element={<Dashboard/>} />
         <Route path='/assest' element={<AssetDetailPage/>} />
         <Route path='/transaction' element={<TransactionPage/>} />
         {/* </Route> */}
